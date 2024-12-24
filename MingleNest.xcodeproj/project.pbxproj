@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3BF7B50E2D1B3A9400050F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BF7B4EB2D1B3A9200050F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BF7B4F22D1B3A9200050F0C;
+			remoteInfo = MingleNest;
+		};
+		3BF7B5182D1B3A9400050F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BF7B4EB2D1B3A9200050F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BF7B4F22D1B3A9200050F0C;
+			remoteInfo = MingleNest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BF7B4F32D1B3A9200050F0C /* MingleNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MingleNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF7B50D2D1B3A9400050F0C /* MingleNestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MingleNestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF7B5172D1B3A9400050F0C /* MingleNestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MingleNestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3BF7B51F2D1B3A9400050F0C /* Exceptions for "MingleNest" folder in "MingleNest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3BF7B4F22D1B3A9200050F0C /* MingleNest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3BF7B4F52D1B3A9200050F0C /* MingleNest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3BF7B51F2D1B3A9400050F0C /* Exceptions for "MingleNest" folder in "MingleNest" target */,
+			);
+			path = MingleNest;
+			sourceTree = "<group>";
+		};
+		3BF7B5102D1B3A9400050F0C /* MingleNestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MingleNestTests;
+			sourceTree = "<group>";
+		};
+		3BF7B51A2D1B3A9400050F0C /* MingleNestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MingleNestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF7B4F02D1B3A9200050F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7B50A2D1B3A9400050F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7B5142D1B3A9400050F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF7B4EA2D1B3A9200050F0C = {
+			isa = PBXGroup;
+			children = (
+				3BF7B4F52D1B3A9200050F0C /* MingleNest */,
+				3BF7B5102D1B3A9400050F0C /* MingleNestTests */,
+				3BF7B51A2D1B3A9400050F0C /* MingleNestUITests */,
+				3BF7B4F42D1B3A9200050F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF7B4F42D1B3A9200050F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF7B4F32D1B3A9200050F0C /* MingleNest.app */,
+				3BF7B50D2D1B3A9400050F0C /* MingleNestTests.xctest */,
+				3BF7B5172D1B3A9400050F0C /* MingleNestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF7B4F22D1B3A9200050F0C /* MingleNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF7B5202D1B3A9400050F0C /* Build configuration list for PBXNativeTarget "MingleNest" */;
+			buildPhases = (
+				3BF7B4EF2D1B3A9200050F0C /* Sources */,
+				3BF7B4F02D1B3A9200050F0C /* Frameworks */,
+				3BF7B4F12D1B3A9200050F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3BF7B4F52D1B3A9200050F0C /* MingleNest */,
+			);
+			name = MingleNest;
+			packageProductDependencies = (
+			);
+			productName = MingleNest;
+			productReference = 3BF7B4F32D1B3A9200050F0C /* MingleNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BF7B50C2D1B3A9400050F0C /* MingleNestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF7B5252D1B3A9400050F0C /* Build configuration list for PBXNativeTarget "MingleNestTests" */;
+			buildPhases = (
+				3BF7B5092D1B3A9400050F0C /* Sources */,
+				3BF7B50A2D1B3A9400050F0C /* Frameworks */,
+				3BF7B50B2D1B3A9400050F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF7B50F2D1B3A9400050F0C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3BF7B5102D1B3A9400050F0C /* MingleNestTests */,
+			);
+			name = MingleNestTests;
+			packageProductDependencies = (
+			);
+			productName = MingleNestTests;
+			productReference = 3BF7B50D2D1B3A9400050F0C /* MingleNestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BF7B5162D1B3A9400050F0C /* MingleNestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF7B5282D1B3A9400050F0C /* Build configuration list for PBXNativeTarget "MingleNestUITests" */;
+			buildPhases = (
+				3BF7B5132D1B3A9400050F0C /* Sources */,
+				3BF7B5142D1B3A9400050F0C /* Frameworks */,
+				3BF7B5152D1B3A9400050F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF7B5192D1B3A9400050F0C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3BF7B51A2D1B3A9400050F0C /* MingleNestUITests */,
+			);
+			name = MingleNestUITests;
+			packageProductDependencies = (
+			);
+			productName = MingleNestUITests;
+			productReference = 3BF7B5172D1B3A9400050F0C /* MingleNestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF7B4EB2D1B3A9200050F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3BF7B4F22D1B3A9200050F0C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3BF7B50C2D1B3A9400050F0C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3BF7B4F22D1B3A9200050F0C;
+					};
+					3BF7B5162D1B3A9400050F0C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3BF7B4F22D1B3A9200050F0C;
+					};
+				};
+			};
+			buildConfigurationList = 3BF7B4EE2D1B3A9200050F0C /* Build configuration list for PBXProject "MingleNest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF7B4EA2D1B3A9200050F0C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3BF7B4F42D1B3A9200050F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF7B4F22D1B3A9200050F0C /* MingleNest */,
+				3BF7B50C2D1B3A9400050F0C /* MingleNestTests */,
+				3BF7B5162D1B3A9400050F0C /* MingleNestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF7B4F12D1B3A9200050F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7B50B2D1B3A9400050F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7B5152D1B3A9400050F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF7B4EF2D1B3A9200050F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7B5092D1B3A9400050F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF7B5132D1B3A9400050F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BF7B50F2D1B3A9400050F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BF7B4F22D1B3A9200050F0C /* MingleNest */;
+			targetProxy = 3BF7B50E2D1B3A9400050F0C /* PBXContainerItemProxy */;
+		};
+		3BF7B5192D1B3A9400050F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BF7B4F22D1B3A9200050F0C /* MingleNest */;
+			targetProxy = 3BF7B5182D1B3A9400050F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BF7B5212D1B3A9400050F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MingleNest/MingleNest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MingleNest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MingleNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BF7B5222D1B3A9400050F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MingleNest/MingleNest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MingleNest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MingleNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BF7B5232D1B3A9400050F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BF7B5242D1B3A9400050F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF7B5262D1B3A9400050F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MingleNestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MingleNest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MingleNest";
+			};
+			name = Debug;
+		};
+		3BF7B5272D1B3A9400050F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MingleNestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MingleNest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MingleNest";
+			};
+			name = Release;
+		};
+		3BF7B5292D1B3A9400050F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MingleNestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MingleNest;
+			};
+			name = Debug;
+		};
+		3BF7B52A2D1B3A9400050F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MingleNestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MingleNest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF7B4EE2D1B3A9200050F0C /* Build configuration list for PBXProject "MingleNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7B5232D1B3A9400050F0C /* Debug */,
+				3BF7B5242D1B3A9400050F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF7B5202D1B3A9400050F0C /* Build configuration list for PBXNativeTarget "MingleNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7B5212D1B3A9400050F0C /* Debug */,
+				3BF7B5222D1B3A9400050F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF7B5252D1B3A9400050F0C /* Build configuration list for PBXNativeTarget "MingleNestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7B5262D1B3A9400050F0C /* Debug */,
+				3BF7B5272D1B3A9400050F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF7B5282D1B3A9400050F0C /* Build configuration list for PBXNativeTarget "MingleNestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF7B5292D1B3A9400050F0C /* Debug */,
+				3BF7B52A2D1B3A9400050F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BF7B4EB2D1B3A9200050F0C /* Project object */;
+}
