@@ -1,5 +1,5 @@
 //
-//  IntroViewController.swift
+//  MingleCardsShowVC.swift
 //  MingleNest
 //
 //  Created by Harshit Sharma on 25/12/24.
@@ -7,8 +7,8 @@
 
 import UIKit
 
-class IntroViewController: UIViewController {
-    private var animationView: LottieAnimationView?
+class MingleCardsShowVC: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
